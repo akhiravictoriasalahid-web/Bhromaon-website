@@ -1,0 +1,60 @@
+.hero {
+    height: 100vh;
+    background: url("../images/main-image.png") center/cover no-repeat;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2.4px;
+}
+.navbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    font-family: "Aleo", serif;
+    display: flex;
+    gap: 13px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.hero-content {
+    max-width: 500px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #FFFFFF;
+}
+.hero-content h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 26px;
+    letter-spacing: 4.8px;
+    margin-bottom: 11px;
+}
+.hero-text {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+    margin-bottom: 48px;
+}
