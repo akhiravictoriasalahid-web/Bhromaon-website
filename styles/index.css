@@ -349,3 +349,59 @@ ul {
   line-height: 26px;
   letter-spacing: 1.2px;
 }
+
+.testimonial {
+  height: 731px;
+  background: url("../images/testimonialbg.png") center/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonial-title {
+  font-family: "Aleo", serif;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 26px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 91px;
+}
+
+.testimonial-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.testimonial-image {
+  width: 445px;
+  height: 284px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.testimonial-content {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: normal;
+  line-height: 26px;
+  color: #fefefe;
+  padding: 40px;
+}
+
+.testimonial-content h4 {
+  font-size: 20px;
+}
+
+.testimonial-content {
+  font-size: 12px;
+}
+
+.quote-icon {
+  color: #5474fd;
+  font-size: 20px;
+}
