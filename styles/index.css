@@ -22,6 +22,8 @@ section {
   background-color: #5474FD;
   color: #FFFFFF;
   border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -404,4 +406,55 @@ ul {
 .quote-icon {
   color: #5474fd;
   font-size: 20px;
+}
+
+.footer {
+  height: 271px;
+  background: #232323;
+  text-align: center;
+  padding: 120px 0;
+  color: #FFFFFF;
+}
+
+.footer-logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 3.36px;
+  margin-bottom: 8px;
+}
+
+.footer-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  margin-bottom: 16px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.social a .fa-linkedin-in {
+  color: #5474fd;
+}
+
+.social a {
+  color: white;
+  font-size: 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  color: #5474fd;
 }
