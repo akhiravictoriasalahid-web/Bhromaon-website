@@ -1,5 +1,5 @@
 .testimonial {
-    height: 731px;
+    min-height: 731px;
     background: url("../images/testimonialbg.png") center/cover no-repeat;
     display: flex;
     align-items: center;
@@ -15,12 +15,17 @@
 }
 .testimonial-card {
     display: flex;
+    align-items: stretch;
     background: rgba(0,0,0,0.6);
 }
 .testimonial-image {
-    width: 445px;
-    height: 284px;
+    max-width: 445px;
+    width: 100%;
+    min-height: 284px;
+}
+.testimonial-image img {
     object-fit: cover;
+    display: block;
     transition: all 0.4s ease;
 }
 .testimonial-content {

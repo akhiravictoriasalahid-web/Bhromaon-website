@@ -10,6 +10,7 @@
 }
 .why-text {
     max-width: 560px;
+    width: 100%;
 
 }
 .why-text h2 {
@@ -29,8 +30,9 @@
     margin-bottom: 45px;
 }
 .why .btn {
-    width: 228px;
-    height: 63px;
+    max-width: 228px;
+    width: 100%;
+    min-height: 63px;
     font-size: normal;
     font-size: 16px;
     line-height: 26px;
@@ -42,8 +44,9 @@
     flex-direction: column;
 }
 .why-images img {
-    width: 350px;
-    height: 220px;
+    max-width: 350px;
+    width: 100%;
+    min-height: 220px;
     display: block;
     transition: all 0.4s ease;
 }

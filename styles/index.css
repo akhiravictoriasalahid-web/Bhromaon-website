@@ -9,6 +9,7 @@ body {
 
 .container {
   max-width: 1100px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -41,7 +42,7 @@ ul {
 }
 
 .hero {
-  height: 821px;
+  min-height: 821px;
   background: url("../images/main-image.png") center/cover no-repeat;
   color: #FFFFFF;
   display: -webkit-box;
@@ -55,6 +56,9 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .logo {
@@ -106,7 +110,8 @@ ul {
 }
 
 .hero-content {
-  max-width: 500px;
+  max-width: 650px;
+  width: 100%;
   font-family: "Josefin Sans", sans-serif;
   color: #FFFFFF;
   margin: auto;
@@ -129,11 +134,13 @@ ul {
 }
 
 .search-form {
-  width: 600px;
-  height: 63px;
+  max-width: 600px;
+  width: 100%;
+  min-height: 63px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 auto;
 }
 
 .search-form input {
@@ -147,7 +154,7 @@ ul {
   letter-spacing: 2.8px;
   text-align: center;
   color: #999999;
-  padding: 20px;
+  padding: 20px 25px;
   border: none;
 }
 
@@ -158,6 +165,10 @@ ul {
   letter-spacing: 1.4px;
 }
 
+.search-form .btn {
+  width: 153px;
+}
+
 .scroll-down {
   margin-top: 100px;
   font-family: "Josefin Sans", sans-serif;
@@ -165,9 +176,20 @@ ul {
   font-size: 14px;
   line-height: 26px;
   letter-spacing: 2.8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .scroll-down i {
+  width: 150px;
   font-size: 14px;
 }
 
@@ -186,7 +208,7 @@ ul {
     font-size: 18px;
   }
   .search-form {
-    width: 100px;
+    width: 100%;
   }
   .navbar .container {
     -webkit-box-orient: vertical;
@@ -214,6 +236,7 @@ ul {
 
 .why-text {
   max-width: 560px;
+  width: 100%;
 }
 
 .why-text h2 {
@@ -235,8 +258,9 @@ ul {
 }
 
 .why .btn {
-  width: 228px;
-  height: 63px;
+  max-width: 228px;
+  width: 100%;
+  min-height: 63px;
   font-size: normal;
   font-size: 16px;
   line-height: 26px;
@@ -257,8 +281,9 @@ ul {
 }
 
 .why-images img {
-  width: 350px;
-  height: 220px;
+  max-width: 350px;
+  width: 100%;
+  min-height: 220px;
   display: block;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -296,7 +321,7 @@ ul {
   }
 }
 .steps {
-  height: 340px;
+  min-height: 340px;
   background: #333333;
   color: #ffffff;
   padding: 80px 0;
@@ -361,7 +386,7 @@ ul {
   }
 }
 .destination {
-  height: 700px;
+  min-height: 700px;
   background: url("../images/Spainmadrid1.png") center/cover no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -379,8 +404,9 @@ ul {
   background: rgba(0, 0, 0, 0.6);
   color: #FFFFFF;
   padding: 40px;
-  width: 543px;
-  height: 374px;
+  max-width: 543px;
+  width: 100%;
+  min-height: 374px;
 }
 
 .destination-card p,
@@ -410,8 +436,9 @@ ul {
 }
 
 .destination .btn {
-  width: 228px;
-  height: 63px;
+  max-width: 228px;
+  width: 100%;
+  min-height: 63px;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
@@ -427,7 +454,7 @@ ul {
   }
 }
 .destination-second {
-  height: 700px;
+  min-height: 700px;
   background: url("../images/Spainmadrid2.png") center/cover no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -451,8 +478,9 @@ ul {
   background: rgba(0, 0, 0, 0.7);
   color: #FFFFFF;
   padding: 40px;
-  width: 543px;
-  height: 374px;
+  max-width: 543px;
+  width: 100%;
+  min-height: 374px;
 }
 
 .destination-card2 p,
@@ -482,8 +510,9 @@ ul {
 }
 
 .destination-card2 .btn {
-  width: 228px;
-  height: 63px;
+  max-width: 228px;
+  width: 100%;
+  min-height: 63px;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
@@ -491,7 +520,7 @@ ul {
 }
 
 .testimonial {
-  height: 731px;
+  min-height: 731px;
   background: url("../images/testimonialbg.png") center/cover no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -515,14 +544,22 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   background: rgba(0, 0, 0, 0.6);
 }
 
 .testimonial-image {
-  width: 445px;
-  height: 284px;
+  max-width: 445px;
+  width: 100%;
+  min-height: 284px;
+}
+
+.testimonial-image img {
   -o-object-fit: cover;
      object-fit: cover;
+  display: block;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -569,7 +606,7 @@ ul {
   }
 }
 .footer {
-  height: 271px;
+  min-height: 271px;
   background: #232323;
   text-align: center;
   padding: 120px 0;
