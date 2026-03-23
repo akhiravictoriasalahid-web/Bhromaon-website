@@ -115,14 +115,61 @@
 
 /* ==== TABLET ==== */
 @media (max-width:768px) {
+    .hero {
+        min-height: 700px;
+        padding: 80px 20px;
+    }
     .hero-content h1 {
+        font-size: 36px;
+        letter-spacing: 3px;
+    }
+    .hero-text {
         font-size: 18px;
+        letter-spacing: 4px;
+        margin-bottom: 30px;
     }
     .search-form {
         width: 100%;
     }
+    .search-form input {
+        padding: 15px;
+        font-size: 13px;
+    }
     .navbar .container {
         flex-direction: column;
         gap: 10px;
+    }
+}
+/* ==== MOBILE ==== */
+@media (max-width: 576px) {
+    .hero {
+        min-height: 600px;
+        padding: 60px 15px;
+    }
+    .hero-content h1 {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+    .hero-text {
+        font-size: 16px;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+    }
+    .search-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .search-form input {
+        width: 100%;
+        padding: 15px;
+        font-size: 13px;
+    }
+    .search-form .btn {
+        width: 100%;
+        min-height: 50px;
+    }
+    .scroll-down {
+        margin-top: 50px;
+        font-size: 12px;
     }
 }
